@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	font-size: 100%;
+	position: relative;
+	background: linear-gradient(68.15deg, #82B9D7 16.62%, #867EDF 85.61%);
+}
+.cabecalho {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 18px;
+}
+.cabecalho-imagem {
+	height: 64px;
+	width: 64px;
+}
+.cabecalho-menu {
+	display: flex;
+	gap: 32px;
+}
+.cabecalho-menu-item {
+	font-family: 'Quicksand', sans-serif;
+	color: #232323;
+	font-weight: 400;
+	font-size: 18px;
+}
+.conteudo {
+	margin-bottom: 48px;
+	border-top: 0.5px solid #505050;
+}
+.conteudo-principal {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.conteudo-principal-escrito {
+	display: flex;
+	flex-direction: column;
+	gap:32px;
+}
+.conteudo-principal-escrito-titulo {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+	font-size: 58px;
+	color: #232323;
+}
+.conteudo-principal-escrito-subtitulo {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 34px;
+	color: #232323;
+}
+.conteudo-principal-botao {
+	background-color: #A4B1B8;
+	width: 160px;
+	height: 50px;
+	border: none;
+	box-shadow: 2px 3px 2px #909BA1;
+	border-radius: 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #232323;
+}
+.conteudo-principal-botao:hover {
+	background-color: #909BA1;
+}
+.conteudo-principal-imagem {
+	height: 300px;
+	width: 400px;
+}
+.conteudo-secundario {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 22px;
+	margin-top: 44px;
+}
+.conteudo-secundario-titulo {
+	border-top: 0.4px solid #505050;
+	padding-top: 32px;
+	font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+	font-size: 22px;
+	color: #232323;
+	margin-bottom:10px;
+}
+.conteudo-secundario-paragrafo {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #232323;
+}
+.rodape {
+	padding: 3px;
+	border-top: 0.5px solid #505050;
+	position: absolute;
+	bottom: 0;
+	width: 100%
+}
+.rodape-imagem {
+	height: 70px;
+	width:108px;
+	display: block;
+	margin: 0 auto;
+}
