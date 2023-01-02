@@ -63,20 +63,22 @@ body {
 	font-size: 34px;
 	color: #232323;
 }
-.conteudo-principal-botao {
-	background-color: #A4B1B8;
-	width: 160px;
-	height: 50px;
-	border: none;
-	box-shadow: 2px 3px 2px #909BA1;
-	border-radius: 20px;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	color: #232323;
+td {
+    border-radius: 10px;
 }
-.conteudo-principal-botao:hover {
-	background-color: #909BA1;
+td a {
+        background-color: #A4B1B8;
+        padding: 16px 48px;
+        border: none;
+        box-shadow: 2px 3px 2px #909BA1;
+        border-radius: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #232323;
+}
+td a:hover {
+        background-color: #909BA1;
 }
 .conteudo-principal-imagem {
 	height: 300px;
